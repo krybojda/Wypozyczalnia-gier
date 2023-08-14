@@ -1,0 +1,53 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+img{
+  width: 75%;
+}
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #888;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 8px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 240px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background-color: lightblue; 
+  
+}
+
+#gif {
+	height: 70%;
+	width: 70%;
+}
+.main h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
